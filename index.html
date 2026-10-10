@@ -1,27 +1,118 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Sharad Kumar Mishra - Senior DevOps Engineer</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <header>
-    <nav class="navbar">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="skills.html">Skills</a>
-      <a href="projects.html">Projects</a>
-      <a href="awards.html">Awards</a>
-      <a href="contact.html">Contact</a>
-      <a href="resume.pdf" target="_blank">Resume</a>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b1020" />
+    <meta name="description" content="Sharad Kumar Mishra — Senior DevOps Engineer and Azure Cloud Architect specializing in Azure, AKS, Terraform, platform engineering, and DevSecOps." />
+    <meta property="og:title" content="Sharad Kumar Mishra | Senior DevOps Engineer" />
+    <meta property="og:description" content="Building reliable cloud platforms, scalable Kubernetes infrastructure, and secure delivery pipelines." />
+    <meta property="og:type" content="website" />
+    <title>Sharad Kumar Mishra | Senior DevOps Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Sharad home"><span class="brand-mark">SM</span><span>SHARAD<span class="brand-dot">.</span></span></a>
+      <nav class="nav" id="nav">
+        <a href="#about">About</a><a href="#expertise">Expertise</a><a href="#projects">Projects</a><a href="#journey">Journey</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-button" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">◐</button>
+        <a class="button button-small button-outline" href="#contact">Let's connect <span>↗</span></a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+      </div>
+    </header>
 
-  <section class="hero">
-    <h1>🚀 Sharad Kumar Mishra</h1>
-    <p>Senior DevOps Engineer | Azure Cloud Architect | Kubernetes | Terraform</p>
-    <a href="resume.pdf" class="btn">Download Resume</a>
-  </section>
-</body>
+    <main>
+      <section class="hero section-wrap" id="home">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> CLOUD · PLATFORM · AUTOMATION</div>
+          <h1>Engineering the<br><span class="gradient-text">cloud that scales.</span></h1>
+          <p class="hero-lede">I'm <strong>Sharad Kumar Mishra</strong> — a Senior DevOps Engineer and Azure Cloud Architect focused on resilient platforms, secure delivery pipelines, and automation that makes engineering teams faster.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+            <a class="button button-outline" href="https://github.com/YOUR_GITHUB_USERNAME" id="heroGithub" target="_blank" rel="noreferrer">GitHub profile ↗</a>
+            <a class="button button-outline" href="/resume.pdf" download>Download CV ↓</a>
+          </div>
+          <div class="hero-meta"><span><i class="meta-icon">⌁</i> Noida, India</span><span><i class="meta-icon">◷</i> 16+ years in IT</span><span><i class="meta-icon">▣</i> Azure & Kubernetes</span></div>
+        </div>
+        <div class="hero-visual">
+          <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+          <div class="core-node"><span class="core-symbol">⌘</span><b>PLATFORM</b><small>ENGINEERING</small></div>
+          <div class="orbit-node node-azure"><span>☁</span><b>AZURE</b></div>
+          <div class="orbit-node node-k8s"><span>⎈</span><b>KUBERNETES</b></div>
+          <div class="orbit-node node-iac"><span>⌘</span><b>TERRAFORM</b></div>
+          <div class="orbit-node node-ci"><span>⟳</span><b>CI / CD</b></div>
+          <div class="visual-caption"><span class="status-dot"></span> DESIGN · AUTOMATE · OBSERVE · IMPROVE</div>
+        </div>
+        <div class="hero-bottomline"><span>SCROLL TO EXPLORE</span><span class="line"></span><span>01 / 05</span></div>
+      </section>
+
+      <section class="metrics section-wrap" aria-label="Career highlights">
+        <div class="metric"><strong>16<span>+</span></strong><span>Years in IT</span></div>
+        <div class="metric"><strong>7<span>+</span></strong><span>Years hands-on Azure</span></div>
+        <div class="metric"><strong>15<span>+</span></strong><span>Dev teams supported</span></div>
+        <div class="metric"><strong>99.95<span>%</span></strong><span>Reported platform SLA</span></div>
+        <p class="metrics-note">Career highlights from my professional experience</p>
+      </section>
+
+      <section class="section-wrap section-block" id="about">
+        <div class="section-heading"><div><span class="section-index">01 — ABOUT</span><h2>Reliable systems.<br><span class="muted-heading">Thoughtful engineering.</span></h2></div><p class="section-intro">I bring infrastructure, delivery, security, and operations together to help teams ship with confidence.</p></div>
+        <div class="about-grid">
+          <article class="panel about-main"><div class="panel-kicker">MY APPROACH</div><h3>Build the platform.<br>Enable the people.</h3><p>My work spans enterprise Azure foundations, reusable Infrastructure as Code, Kubernetes platforms, GitOps, and secure CI/CD. I care about systems that are repeatable, observable, cost-aware, and straightforward for engineering teams to operate.</p><p>More recently, I’ve been exploring practical GenAI workflows and agentic automation for infrastructure operations.</p><div class="tag-row"><span>Automation-first</span><span>Security by design</span><span>Reliability-minded</span></div></article>
+          <article class="panel award-panel"><div class="award-icon">✳</div><div class="panel-kicker">RECOGNITION · 2025</div><h3>Best DevOps Innovator</h3><p>Digital Transformation Initiative — Mahakumbh project, Reliance Industries Ltd.</p><a href="#journey" class="text-link">Explore my journey <span>↗</span></a></article>
+        </div>
+      </section>
+
+      <section class="section-wrap section-block" id="expertise">
+        <div class="section-heading"><div><span class="section-index">02 — TOOLKIT</span><h2>My engineering<br><span class="muted-heading">toolkit.</span></h2></div><p class="section-intro">The tools I use to provision, deliver, secure, and observe modern cloud platforms.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon">☁</div><h3>Cloud & Architecture</h3><p>Azure · Landing Zones · Hub & Spoke · VNets · ExpressRoute · RBAC</p><div class="skill-line"><span style="width:92%"></span></div></article>
+          <article class="skill-card"><div class="skill-icon">⌘</div><h3>Infrastructure as Code</h3><p>Terraform · Bicep · Reusable Modules · Remote State · Azure CLI</p><div class="skill-line"><span style="width:90%"></span></div></article>
+          <article class="skill-card"><div class="skill-icon">⎈</div><h3>Containers & Platform</h3><p>AKS · Kubernetes · Docker · Helm · HPA/VPA · CNI · AGIC</p><div class="skill-line"><span style="width:88%"></span></div></article>
+          <article class="skill-card"><div class="skill-icon">⟳</div><h3>CI/CD & GitOps</h3><p>GitHub Actions · Azure DevOps · YAML Pipelines · Argo CD · Flux CD</p><div class="skill-line"><span style="width:91%"></span></div></article>
+          <article class="skill-card"><div class="skill-icon">◈</div><h3>Security & Observability</h3><p>SonarQube · Trivy · SAST/DAST · Azure Monitor · Prometheus · Grafana</p><div class="skill-line"><span style="width:85%"></span></div></article>
+          <article class="skill-card"><div class="skill-icon">✳</div><h3>Automation & AI</h3><p>PowerShell · Python · Linux · Azure AI Foundry · RAG / MCP POCs</p><div class="skill-line"><span style="width:82%"></span></div></article>
+        </div>
+        <p class="skills-note">Skill bars are illustrative categories, not measured proficiency scores.</p>
+      </section>
+
+      <section class="section-wrap section-block" id="projects">
+        <div class="section-heading"><div><span class="section-index">03 — SELECTED WORK</span><h2>Built, shipped,<br><span class="muted-heading">and automated.</span></h2></div><p class="section-intro">Projects load from your public GitHub repositories. Pin important projects in the config to feature them first.</p></div>
+        <div class="project-toolbar"><div class="filter-list" id="projectFilters"><button class="filter-chip active" data-filter="all">All projects</button><button class="filter-chip" data-filter="terraform">Terraform / IaC</button><button class="filter-chip" data-filter="kubernetes">Kubernetes</button><button class="filter-chip" data-filter="cicd">CI/CD</button><button class="filter-chip" data-filter="azure">Azure</button></div><label class="search-box"><span>⌕</span><input id="projectSearch" type="search" placeholder="Search repositories..." aria-label="Search repositories"></label></div>
+        <div class="repo-status" id="repoStatus"><span class="loading-pulse"></span> Connecting to GitHub repositories…</div>
+        <div class="projects-grid" id="projectsGrid"></div>
+        <div class="projects-footer"><span id="repoCount">Public repositories</span><a class="text-link" id="allReposLink" href="https://github.com/YOUR_GITHUB_USERNAME?tab=repositories" target="_blank" rel="noreferrer">View all on GitHub ↗</a></div>
+      </section>
+
+      <section class="section-wrap section-block terminal-section">
+        <div class="section-heading"><div><span class="section-index">04 — INTERACTIVE MODE</span><h2>A little terminal<br><span class="muted-heading">for the curious.</span></h2></div><p class="section-intro">Explore this portfolio using simple commands. This is a safe, simulated terminal — it does not execute server commands.</p></div>
+        <div class="terminal-window">
+          <div class="terminal-top"><div class="window-dots"><i></i><i></i><i></i></div><span>sharad@portfolio: ~</span><button id="clearTerminal" class="terminal-clear">CLEAR</button></div>
+          <div class="terminal-output" id="terminalOutput"><p><span class="terminal-green">Welcome!</span> Type <b>help</b> to see available commands.</p><p class="terminal-muted">This interactive shell is a portfolio demo, not a real system terminal.</p></div>
+          <form id="terminalForm" class="terminal-input-row"><span class="terminal-prompt">visitor@portfolio:~$</span><input id="terminalInput" autocomplete="off" spellcheck="false" aria-label="Terminal command" placeholder="type help and press Enter"><button type="submit" aria-label="Run command">↵</button></form>
+        </div>
+      </section>
+
+      <section class="section-wrap section-block" id="journey">
+        <div class="section-heading"><div><span class="section-index">05 — EXPERIENCE</span><h2>A career in<br><span class="muted-heading">continuous improvement.</span></h2></div><p class="section-intro">From network operations to cloud architecture and platform engineering.</p></div>
+        <div class="timeline">
+          <article class="timeline-item"><div class="timeline-date">AUG 2023 — PRESENT</div><div class="timeline-marker"></div><div class="timeline-content"><div class="timeline-top"><h3>Sr. DevOps Engineer & GenAI</h3><span class="timeline-type">CLOUD / PLATFORM</span></div><p class="company">Reliance Industries Limited</p><ul><li>Built reusable Terraform foundations and enterprise CI/CD supporting 15+ development teams.</li><li>Delivered AKS platforms with Helm, autoscaling, secure ingress, and GitOps-based deployments.</li><li>Integrated pipeline security checks and explored GenAI agents for infrastructure operations.</li></ul></div></article>
+          <article class="timeline-item"><div class="timeline-date">SEP 2019 — JUL 2023</div><div class="timeline-marker"></div><div class="timeline-content"><div class="timeline-top"><h3>Cloud Engineer (Azure)</h3><span class="timeline-type">CLOUD MIGRATION</span></div><p class="company">Reliance Projects & Property Management Services Ltd.</p><ul><li>Supported migration of 80+ on-premise workloads to Azure.</li><li>Designed hub-and-spoke landing zones, network security, and centralized governance.</li><li>Automated operations with PowerShell, Azure CLI, Python, and Azure DevOps pipelines.</li></ul></div></article>
+          <article class="timeline-item"><div class="timeline-date">SEP 2015 — AUG 2019</div><div class="timeline-marker"></div><div class="timeline-content"><div class="timeline-top"><h3>Senior IT Network Admin Engineer</h3><span class="timeline-type">NETWORK / OPERATIONS</span></div><p class="company">Reliance Jio Infocomm</p><ul><li>Automated monitoring workflows across distributed data centers.</li><li>Built KPI dashboards and runbooks to improve reporting and incident response.</li></ul></div></article>
+          <article class="timeline-item"><div class="timeline-date">JUN 2010 — SEP 2015</div><div class="timeline-marker"></div><div class="timeline-content"><div class="timeline-top"><h3>IT Support & Network Performance Roles</h3><span class="timeline-type">FOUNDATIONS</span></div><p class="company">Air Network Solution · Solution Provider · Steelman Telecom</p><ul><li>Worked across OSS/Citrix, LAN/WAN infrastructure, ITSM, network monitoring, and technical support.</li></ul></div></article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact"><div class="section-wrap contact-inner"><div><span class="section-index">LET'S BUILD SOMETHING RELIABLE</span><h2>Have a platform<br>challenge in mind?</h2><p>Let's connect and talk about cloud architecture, DevOps, Kubernetes, or automation.</p></div><div class="contact-actions"><a class="button button-primary" href="mailto:sharad977@gmail.com">Email me ↗</a><a class="button button-outline" href="https://www.linkedin.com/in/sharadkumarmishra977" target="_blank" rel="noreferrer">Connect on LinkedIn ↗</a><a class="button button-outline" href="https://github.com/YOUR_GITHUB_USERNAME" id="contactGithub" target="_blank" rel="noreferrer">GitHub ↗</a></div></div></section>
+    </main>
+    <footer class="footer section-wrap"><a class="brand" href="#home"><span class="brand-mark">SM</span><span>SHARAD<span class="brand-dot">.</span></span></a><span>Designed to be useful. Built to keep improving.</span><span>© <span id="year"></span> Sharad Kumar Mishra</span></footer>
+    <dialog id="repoDialog" class="repo-dialog"><button class="dialog-close" id="dialogClose" aria-label="Close project details">×</button><div id="dialogContent"></div></dialog>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>
